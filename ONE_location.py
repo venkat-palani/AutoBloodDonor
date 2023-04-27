@@ -7,7 +7,7 @@ class Location_finder:
     def __init__(self,address):
         self.option = webdriver.ChromeOptions()
         self.option.headless = True
-        self.chrome = "C:\\chromedriver_win32 (1)\\chromedriver.exe"
+        self.chrome = "C:\\chromedriver_win32 (2)\\chromedriver.exe"
         # self.chrome = "C:\\Users\\venkatesan\\Downloads\\chromedriver_win32\\chromedriver"
         self.driver= webdriver.Chrome(executable_path=self.chrome,chrome_options=self.option)
         # self.driver= webdriver.Chrome(executable_path=self.chrome)
@@ -44,6 +44,3 @@ class Location_finder:
             #     pass
 
             self.driver.quit()
-
-
-

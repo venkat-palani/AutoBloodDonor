@@ -111,6 +111,7 @@ import mysql.connector
 from datetime import datetime
 
 
+
 class finallistofsuitabledoners:
     def __init__(self, blood_group, city):
         self.serial_number = blood_group
